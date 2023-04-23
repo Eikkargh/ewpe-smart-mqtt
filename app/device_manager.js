@@ -6,9 +6,8 @@ const TEMPERATURE_SENSOR_OFFSET = -40;
 
 // https://github.com/tomikaa87/gree-remote
 const statusKeys = [
-    'Pow', 'Mod', 'TemUn', 'SetTem', 'TemRec', 'WdSpd', 'Air',
-    'Blo', 'Health', 'SwhSlp', 'Lig', 'SwingLfRig', 'SwUpDn',
-    'Quiet', 'Tur', 'SvSt', 'TemSen'
+    'Pow', 'Dwet', 'DwatSen', 'Dmod', 'WdSpd', 'Dfltr', 'DwatFul',
+    'AllErr', 'TemSen', 'Health', 'AppTimer'
 ]
 
 class DeviceManager extends EventEmitter {
